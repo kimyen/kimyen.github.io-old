@@ -24,23 +24,14 @@ Biomarker DREAM Challenge](https://www.synapse.org/#!Synapse:syn8717496/wiki/422
 * Enabled other applications including the [Bridge Exporter](https://github.com/Sage-Bionetworks/Bridge-Exporter) that is using the Synapse Java Client to programmatically restart its connection pool when an existing connection pool is saturated because of a connection leak or other reasons.
 
 
-***
-
-
 ### [Synapse-Warehouse-Workers](https://github.com/Sage-Bionetworks/Synapse-Warehouse-Workers)
 Data collected from [Synapse.org](https://www.synapse.org/) server are stored in S3. [Synapse-Warehouse-Workers](https://github.com/Sage-Bionetworks/Synapse-Warehouse-Workers) imports the captured snapshots into its partitioned MySQL database and pre-processes them, allowing its client to query against these data for reports.
 
 [Learn more](https://sagebionetworks.jira.com/wiki/spaces/DW/pages/82116618/MySQL+Data+Warehouse)
 
 
-***
-
-
 ### [SynapseWebClient](https://github.com/Sage-Bionetworks/SynapseWebClient)
 The web client of [Synapse.org](https://www.synapse.org/).
-
-
-***
 
 
 ### [SimpleHttpClient](https://github.com/Sage-Bionetworks/SimpleHttpClient)
