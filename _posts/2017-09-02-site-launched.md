@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "kimyen.github.io launched"
+title: kimyen.github.io launched
+author: KimYen Ladia
 date: 2017-09-02
 ---
 
