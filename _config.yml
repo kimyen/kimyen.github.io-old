@@ -35,7 +35,7 @@ footer-links:
 disqus: kimyen-github-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-105822533-1
 
 # Your website URL (e.g. http://kimyen.github.io)
 # Used for Sitemap.xml and your RSS feed
