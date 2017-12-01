@@ -33,10 +33,24 @@ Data collected from [Synapse.org](https://www.synapse.org/) server are stored in
 ### [SynapseWebClient](https://github.com/Sage-Bionetworks/SynapseWebClient)
 The web client of [Synapse.org](https://www.synapse.org/).
 
+* UI for Discussion Feature
+* UI for Docker feature
+
 
 ### [SimpleHttpClient](https://github.com/Sage-Bionetworks/SimpleHttpClient)
 A thin wrapper around Apache's HttpClient to provide a set of simple interfaces to be used for HTTP calls that only transfer json objects.
 
+
+### [synapser](https://github.com/Sage-Bionetworks/synapser)
+The R client of [Synapse.org](https://www.synapse.org/).
+
+#### The Build System
+* Proposed [the plan](https://sagebionetworks.jira.com/wiki/spaces/SYNR/pages/151420929/synapser+dev+staging+validation+release) for how to develop, build, and release [synapser](https://github.com/Sage-Bionetworks/synapser). 
+* Organized the builds on Jenkins and wrote [documentation for maintenance](https://sagebionetworks.jira.com/wiki/spaces/SYNR/pages/154861569/Jenkins+Builds+-+Info+and+Maintenance).
+* Organized the Gists used in the build system into a Github repository called [Gist](https://github.com/Sage-Bionetworks/Gist).
+
+### [PythonEmbedInR](https://github.com/Sage-Bionetworks/PythonEmbedInR)
+Folked from PythonInR repository. 
 
 ***
 
