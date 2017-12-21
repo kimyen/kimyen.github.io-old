@@ -47,10 +47,15 @@ The R client of [Synapse.org](https://www.synapse.org/).
 #### The Build System
 * Proposed [the plan](https://sagebionetworks.jira.com/wiki/spaces/SYNR/pages/151420929/synapser+dev+staging+validation+release) for how to develop, build, and release [synapser](https://github.com/Sage-Bionetworks/synapser). 
 * Organized the builds on Jenkins and wrote [documentation for maintenance](https://sagebionetworks.jira.com/wiki/spaces/SYNR/pages/154861569/Jenkins+Builds+-+Info+and+Maintenance).
-* Organized the Gists used in the build system into a Github repository called [Gist](https://github.com/Sage-Bionetworks/Gist).
+* Organized the Gists used in the build system into a Github repository called [CI-Build-Tools](https://github.com/Sage-Bionetworks/CI-Build-Tools).
 
 ### [PythonEmbedInR](https://github.com/Sage-Bionetworks/PythonEmbedInR)
 Folked from PythonInR repository. 
+
+#### Data Conversion
+* Added `testthat` and a set of test cases to ensure the conversion behaviors.
+* Fixed bugs related to converting data from Python 3 to R.
+* Ensured private methods in Python object are not exposed in R.
 
 ***
 
