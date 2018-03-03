@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I am curious about the answer to the question: How are computer science concepts and knowledge applied in the software industry? I am excited to explore challenging problems, great ideas, technical practices and architecture designs. I like to evaluate where I am, what I have learned; and figure out where I want to go, and what I want to work on next.
+I am a software engineer at Sage Bionetwork. I contributed to multiple projects in the Synapse engineering team, and do all kind of stuff that engineers do, like chasing the cause of a bug like it owns me money. Big money! 
 
-I love Github and super motivated to integrate with Github API, and to try out Github features. When I learned about Github Pages, I immediately spent the next days setting up this site.
+My favorite tea is Jasmine Green Tea. Every day you would see me taking a few trips to the kitchen with a glass tea pot to get hot water for my floral Jasmine tea. 
+
+I'm suck at answering questions like "How are you?", "How was your weekend?", or "What's up?" (I don't understand unnessary greetings.) If you want to start a conversation with me, ask me about what is on my mind, what problem I am solving, or what I am excited about today. Or even better, give me a puzzle to solve. :)
 
 ## Education
 
