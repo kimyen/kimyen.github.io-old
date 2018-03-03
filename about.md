@@ -8,7 +8,7 @@ I am a software engineer at Sage Bionetworks. I contributed to multiple projects
 
 My favorite tea is Jasmine Green Tea. Every day you would see me taking a few trips to the kitchen with a glass tea pot to get hot water for my floral Jasmine tea. 
 
-I'm suck at answering questions like "How are you?", "How was your weekend?", or "What's up?" (I don't understand unnessary greetings.) If you want to start a conversation with me, ask me about what is on my mind, what problem I am solving, or what I am excited about today. Or even better, give me a puzzle to solve. :)
+I'm suck at answering questions like "How are you?", "How was your weekend?", or "What's up?" The best way to start a conversation with me is asking me about what's on my mind, what problem I am solving, or what I am excited about today. Or even better, give me a puzzle to solve. :)
 
 ## Education
 
