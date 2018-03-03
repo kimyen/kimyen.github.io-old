@@ -15,6 +15,12 @@ $white: #fff;
 $blue: #4183C4;
 
 // my custom colors
+$darkBrown: #765B52;
+$sand: #C19E82;
+$lightSand: #E7C8A6;
+$lightBlue: #CFE1E9;
+
+
 $yellow: #F8E392;
 $orange: #FEB664;
 $lightPurple: #CCB2D5;
@@ -24,18 +30,18 @@ $darkPurple: #86538C;
 // Main theme colors 
 // Some cool main theme colors(violet:#8476ad;blue:#5cacee;red:#ff7373,#ff6f69;green:#6acf64,#2ddbb3;orange:#ffa268)
 
-$mono-color:#86538C;           // main theme color(header, links, footer icons, buttons, post-title)
-$hl-color: $orange;              // header link color (author name and posted on date) for blog post meta 
-$navbar-hover-color:$yellow;      // navbar hover color (site name and navbar links hover color)
-$link-color: $lightPurple;             // normal hyperlink color other than the ones above.
+$mono-color: $lightBlue;           // main theme color(header, links, footer icons, buttons, post-title)
+$hl-color: $darkBrown;              // header link color (author name and posted on date) for blog post meta 
+$navbar-hover-color:$lightSand;      // navbar hover color (site name and navbar links hover color)
+$link-color: $lightBlue;             // normal hyperlink color other than the ones above.
 
 
 // Heading colors
 // You can play around with these too!
-$h1-color: $darkPurple;
-$h2-color: $orange; 
-$h3-color: $lightPurple; 
-$h4-color: $yellow; 
+$h1-color: $darkBrown;
+$h2-color: $sand; 
+$h3-color: $lightSand; 
+$h4-color: $lightBlue; 
 
 // Your avatar
 
