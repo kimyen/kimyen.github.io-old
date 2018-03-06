@@ -65,6 +65,16 @@ The types of variable that can be passed includes:
 * Github params (BRANCH_NAME)
 * Constants (I will talk more about why you need constants).
 
+## What I learned
+
+Now, those types above do not include user defined variable. If you are familiar with bash, you would laugh at me for trying to pass variables that I exposed in the running script. The biggest lesson that I learned from this is when you expose a "global variable" in your script, it will effect the current running script and it's child processes, but not its parents. Passing params happen at the "parent" level, at the process that manages the job. So any values you calculate within the job, stays inside the job. 
+
+With that set, I cannot calculate version number with my algorithm and pass it along to a downstream job. Instead, I passed the infomation that requires to calculate the version number from the starting job to the last job. 
+
+Now, you may said that's a lot of dupplicated code I have there to execute the algorithm over and over again. When I need to make changes to that code, I will forget to change all the places. Here is the solution for that: use git raw file. You can write your code once, push it to Github. Then you can use curl to get that code. I do this for big chunk of code, but not small and simple code. It's not about being lazy, it's about efficiency. Reading/ downloading data over the network is always the bottle neck. If the code was one line of bash script, I would just copy and past it from one job to another job.
+
+### Notes about constants 
+
 Constants are useful when you have 2 upstream jobs calling the same downstream job with different variables. For example, my `synapser_check` can be used to check any package version on any RAN. The upstream job would pass it the version number and the RAN URI. In this case, the RAN URI can be a constant defined while configure the giver job with Parameterized Build Trigger.
 
 I hope these information are useful. If you try it, please leave a comment letting me know how it works out for you. 
