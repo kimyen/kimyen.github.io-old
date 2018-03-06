@@ -5,7 +5,7 @@ author: KimYen Ladia
 date: 2018-03-05
 ---
 
-While working on the automated build system for the R client at Sage, I discovered how pass params between Jenkins jobs. In this post, I will talk about why I was interested in this, and what I learned from setting up my builds.
+While working on the automated build system for the R client at Sage, I discovered how to pass params between Jenkins jobs. In this post, I will talk about why I was interested in this, and what I learned from setting up my builds.
 
 ## Why passing params between Jenkins jobs?
 
@@ -69,7 +69,7 @@ The types of variable that can be passed includes:
 
 Now, those types above do not include user defined variable. If you are familiar with bash, you would laugh at me for trying to pass variables that I exposed in the running script. The biggest lesson that I learned from this is when you expose a "global variable" in your script, it will effect the current running script and it's child processes, but not its parents. Passing params happen at the "parent" level, at the process that manages the job. So any values you calculate within the job, stays inside the job. 
 
-With that set, I cannot calculate version number with my algorithm and pass it along to a downstream job. Instead, I passed the infomation that requires to calculate the version number from the starting job to the last job. 
+With that said, I cannot calculate version number with my algorithm and pass it along to a downstream job. Instead, I passed the infomation that requires to calculate the version number from the starting job to the last job. 
 
 Now, you may said that's a lot of dupplicated code I have there to execute the algorithm over and over again. When I need to make changes to that code, I will forget to change all the places. Here is the solution for that: use git raw file. You can write your code once, push it to Github. Then you can use curl to get that code. I do this for big chunk of code, but not small and simple code. It's not about being lazy, it's about efficiency. Reading/ downloading data over the network is always the bottle neck. If the code was one line of bash script, I would just copy and past it from one job to another job.
 
