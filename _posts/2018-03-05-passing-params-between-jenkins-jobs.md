@@ -71,7 +71,7 @@ Now, those types above do not include user defined variable. If you are familiar
 
 With that said, I cannot calculate version number with my algorithm and pass it along to a downstream job. Instead, I passed the infomation that requires to calculate the version number from the starting job to the last job. 
 
-Now, you may said that's a lot of dupplicated code I have there to execute the algorithm over and over again. When I need to make changes to that code, I will forget to change all the places. Here is the solution for that: use git raw file. You can write your code once, push it to Github. Then you can use curl to get that code. I do this for big chunk of code, but not small and simple code. It's not about being lazy, it's about efficiency. Reading/ downloading data over the network is always the bottle neck. If the code was one line of bash script, I would just copy and past it from one job to another job.
+Now, you may say, that's a lot of dupplicated code to execute the algorithm over and over again. When I need to make changes to that code, I will forget to change all the places. Here is the solution for that: use git raw file. You can write your code once, push it to Github. Then you can use curl to get that code. I do this for big chunk of code, but not small and simple code. It's not about being lazy, it's about efficiency. Reading/ downloading data over the network is always the bottle neck. If the code was one line of bash script, I would just copy and past it from one job to another job.
 
 ### Notes about constants 
 
