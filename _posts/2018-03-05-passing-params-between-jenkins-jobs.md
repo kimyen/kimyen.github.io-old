@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kimyen.github.io launched
+title: Passing Params Between Jenkins Jobs
 author: KimYen Ladia
 date: 2018-03-05
 ---
