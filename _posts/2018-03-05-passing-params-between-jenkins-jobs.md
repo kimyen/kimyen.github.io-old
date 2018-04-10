@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Passing Params Between Jenkins Jobs
+title: Passing Parameters Between Jenkins Jobs
 author: KimYen Ladia
 date: 2018-03-05
 ---
 
-While working on the automated build system for the R client at Sage, I discovered how to pass params between Jenkins jobs. In this post, I will talk about why I was interested in this, and what I learned from setting up my builds.
+While working on the automated build system for the R client at Sage, I discovered how to pass parameters between Jenkins jobs. In this post, I will talk about why I was interested in this topic, and what I learned from setting up my builds.
 
-## Why passing params between Jenkins jobs?
+## Why passing parameters between Jenkins jobs?
 
 The automated build system I worked on is supposed to do the following:
 1. One each platform (Linux, Window & Mac):
@@ -45,11 +45,11 @@ This version number will be used:
 
 Ideally, I would want to pass the version number from one job to another. 
 
-## How to pass params from one Jenkins job to another?
+## How to pass parameters from one Jenkins job to another?
 
 ### Preconditions
 
-To pass params from `synapser_staging` to `synapser_artifacts`, I need the following Jenkins plugins:
+To pass parameters from `synapser_staging` to `synapser_artifacts`, I need the following Jenkins plugins:
 * Parameterized Build
 * Parameterized Build Trigger 
 
