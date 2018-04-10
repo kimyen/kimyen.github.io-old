@@ -57,6 +57,12 @@ Folked from PythonInR repository.
 * Fixed bugs related to converting data from Python 3 to R.
 * Ensured private methods in Python object are not exposed in R.
 
+#### Python Package Wrapper Utilities
+* Extended PythonEmbedInR package to include utilities functions that generate R wrappers, and documentations for Python packages.
+* Allowed R users to select functions, classes, and module to expose in R.
+* Enabled R users to intercept and alter the returned object in R.
+* Provided instructions and examples on how to create an R package by wrapping a Python package.
+
 ***
 
 
