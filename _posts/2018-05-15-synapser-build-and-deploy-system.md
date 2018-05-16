@@ -57,9 +57,9 @@ We setup 2 types of RAN:
 
 1. Identify the release candidate
 2. Developerment work
-3. Build and deploy artifacts to staging-ran
+3. Build and deploy artifacts to `staging-ran`
 4. Validation
-5. Deploy tested artifacts to ran
+5. Deploy tested artifacts to `ran`
 
 ### Github Practices
 
@@ -105,7 +105,7 @@ The staging build is triggered when we are ready to enter validation phase. It c
 
 * Build the artifacts on 3 platforms: Mac, Linux, and Windows
 * Update version and documentation on the release candidate branch
-* Deploy the artifacts to staging-ran
+* Deploy the artifacts to `staging-ran`
 * Ensure that the artifacts are installable by 3 platforms: Mac, Linux, and Windows from `staging-ran`
 
 ### The prod builds
