@@ -37,14 +37,14 @@ I took the requirements above and played with many different plugin and settings
 
 ## Our Practices
 
-### R Packges
+### R Packages Practices
 
 #### Version
 
 Our package version has 3 parts: `<major>.<minor>.<dev>`
 A product manager will determine the `<major>.<minor>` part. The build system will automatically increase the `<dev>` number.
 
-### RAN and Documentation
+#### RAN and Documentation
 
 We use Github Pages to host our R packages, and documentation.
 Our RAN is setup in an CRAN-like repository, enabling users to install R packages by executing `install.packages()`.
