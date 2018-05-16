@@ -69,7 +69,7 @@ We have 3 types of Github branches:
 
 1. `master` branch: keeping track of the latest released version.
 2. `develop` branch: keeping track of the latest development work.
-3. release-candidate branches: keeping track of each to-be-validated version.
+3. release-candidate branches: keeping track of each to-be-validated version. Each release candidate branch branches off of `develop` branch when we are ready to build a to-be-validated version and push artifacts to `staging-ran`. It will be merged back to `master` and `develop` branches when the version is released to `ran`.
 
 #### Github Tags
 
