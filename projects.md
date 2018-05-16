@@ -33,7 +33,7 @@ Data collected from [Synapse.org](https://www.synapse.org/) server are stored in
 ### [SynapseWebClient](https://github.com/Sage-Bionetworks/SynapseWebClient)
 The web client of [Synapse.org](https://www.synapse.org/).
 
-* UI for Discussion Feature
+* UI for Discussion feature
 * UI for Docker feature
 
 
