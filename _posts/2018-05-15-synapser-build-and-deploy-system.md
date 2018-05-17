@@ -119,6 +119,6 @@ The prod build is triggered when we are ready to release a version to `ran`. It 
 
 While working on this task, I wrote multiple documentation and putting build script in a Github repository:
 
-* [The design](hips://sagebionetworks.jira.com/wiki/spaces/SYNR/ pages/151420929/ synapser+dev+staging+validation+release)
-* [The builds](hips://sagebionetworks.jira.com/wiki/spaces/SYNR/ pages/154861569/Jenkins+Builds+- +Info+and+Maintenance)
-* [The scripts](hips://github.com/Sage-Bionetworks/CI-Build-Tools)
+* [The design](https://sagebionetworks.jira.com/wiki/spaces/SYNR/ pages/151420929/ synapser+dev+staging+validation+release)
+* [The builds](https://sagebionetworks.jira.com/wiki/spaces/SYNR/ pages/154861569/Jenkins+Builds+- +Info+and+Maintenance)
+* [The scripts](https://github.com/Sage-Bionetworks/CI-Build-Tools)
