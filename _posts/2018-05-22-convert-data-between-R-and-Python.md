@@ -5,7 +5,6 @@ author: KimYen Ladia
 date: 2018-05-22
 ---
 
-# Why?
 One of the technology platforms that we develop at Sage Bionetworks is Synapse. Besides the Web client, Synapse also supports R and Python clients. These programatic clients were developed independent of each others and eventually diversed.
 
 To eliminate the engineering efforts to maintain both clients, we decided to add new features to one client, and "auto-generate" the other client.
