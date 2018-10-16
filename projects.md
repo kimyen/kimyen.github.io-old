@@ -60,9 +60,34 @@ Folked from PythonInR repository.
 
 #### Python Package Wrapper Utilities
 * Extended PythonEmbedInR package to include utilities functions that generate R wrappers, and documentations for Python packages.
-* Allowed R users to select functions, classes, and module to expose in R.
+* Allowed R users to select functions, classes, Enums, and module to expose in R.
 * Enabled R users to intercept and alter the returned object in R.
 * Provided instructions and examples on how to create an R package by wrapping a Python package.
+
+
+### [synapsePythonClient](https://github.com/Sage-Bionetworks/synapsePythonClient)
+The Python client of [Synapse.org](https://www.synapse.org/).
+
+#### Enable Single Thread
+* Added the ability to use the Synapse Python client in a single threaded environment (in synapser).
+
+#### House Keeping
+* Stablized the integration tests.
+* Improve development builds from taking several days to taking ~20 minutes.
+* Simplified integration tests for using only one test user, only exercising the http call, not the server's logic. 
+* Directed the integration tests to build against a development stack.
+
+#### Communication Channels
+* Exposed released notes on the Synapse Python client docs.
+* Highlighted deprecated methods in the Synapse Python client docs.
+
+
+### IT
+Collections of IT tasks.
+
+#### Test User for Development Stack
+* Added a build to create a test user for a development stack. 
+* Allowed client builds to run integration tests against the development stack.
 
 ***
 
