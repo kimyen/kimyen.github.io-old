@@ -1,0 +1,5 @@
+deploy:
+  provider: script
+  script: bash scripts/generate_posts.sh
+  on:
+    branch: master
