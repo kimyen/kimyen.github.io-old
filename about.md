@@ -16,12 +16,12 @@ Bachelor of Science: Computer Science - University of Washington - June 2015.
 
 ## Roles
 
-| Role | Company | From | To |
+|  Role  |  Company  |  From  |  To  |
 |-------------|-------------|-------------|-------------|
-| Software Engineer II | Microsoft | Sep, 2019 | Now |
-| Senior Software Engineer | Sage Bionetworks | Jan, 2019 | Sep, 2019 |
-| Software Engineer | Sage Bionetworks | Jun, 2015 | Jan, 2019 |
-| Software Engineer Intern | Sage Bionetworks | Jun, 2014 | Jun, 2015 |
+| . Software Engineer II . | . Microsoft . | . Sep, 2019 . | . Now . |
+| . Senior Software Engineer . | . Sage Bionetworks . | . Jan, 2019 . | . Sep, 2019 . |
+| . Software Engineer . | . Sage Bionetworks . | . Jun, 2015 . | . Jan, 2019 . |
+| . Software Engineer Intern . | . Sage Bionetworks . | . Jun, 2014 . | . Jun, 2015 . |
 
 ## Contact me
 
