@@ -16,7 +16,7 @@ Bachelor of Science: Computer Science - University of Washington - June 2015.
 
 ## Roles
 
-|  Role  |  Company  |  From  |  To  |
+|  Role  |  Com/Org  |  From  |  To  |
 |-------------|-------------|-------------|-------------|
 | . Software Engineer II | . . Microsoft | . . Sep, 2019 . . | Now |
 | . Senior Software Engineer | . . Sage Bionetworks | . . Jan, 2019 . . | Sep, 2019 |
